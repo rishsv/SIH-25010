@@ -63,12 +63,10 @@ Risk Mitigation: Offline mode support, continual dataset expansion, and communit
 Potential Impact: Empowers farmers with scientific knowledge, resulting in higher yields and lower costs. Reduces environmental impact via optimal chemical use.
 Benefits: Promotes social equity, economic growth, and sustainable development in rural India.
 ```
-<prev>
-
 +----------------------------------- Smart Crop Advisory System ------------------------------------+
 
-   [Input Layer]                     [AI Processing]                           [Output Layer]
-  Farmer + Phone                  AI Engine (Python/ML)                     Personalized Advice
+   [Input  Layer]                     [AI Processing]                           [Output Layer]
+   Farmer + Phone                  AI Engine (Python/ML)                     Personalized Advice
         |                                  |                                        |
         v                                  v                                        v
 +---------------+                +-------------------+                     +-------------------+
@@ -85,7 +83,6 @@ Benefits: Promotes social equity, economic growth, and sustainable development i
 +---------------+                  +-------------------+                      +-------------------+
 +--------------------------------------------------------------------------------------------------+
 
-</prev>
 ```
 Impact: 20-30% Yield Boost | Sustainable Agri | For 86% Small Farmers (NABARD 2022)
 Beneficiaries: Farmers | Govt | NGOs | Agri-Startups
