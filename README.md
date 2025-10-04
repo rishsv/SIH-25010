@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 04 / 10 / 2025
+## Register Number: 25017727
+## Name: Rishwanth S V
 ## Problem Title
 SIH 25010: Smart Crop Advisory System for Small and Marginal Farmers
 ## Problem Description
@@ -63,6 +63,7 @@ Risk Mitigation: Offline mode support, continual dataset expansion, and communit
 Potential Impact: Empowers farmers with scientific knowledge, resulting in higher yields and lower costs. Reduces environmental impact via optimal chemical use.
 Benefits: Promotes social equity, economic growth, and sustainable development in rural India.
 
+<prev>
 +----------------------------------- Smart Crop Advisory System ------------------------------------+
 
    [Input Layer]                     [AI Processing]                           [Output Layer]
@@ -81,8 +82,8 @@ Benefits: Promotes social equity, economic growth, and sustainable development i
 | Image Upload  |  <-- Feedback -- | Cloud (AWS/GCP)   | <-- Offline Mode --  | Voice Support     |
 | (Pests/Soil)  |                  | Android App       |                      | Feedback Loop     |
 +---------------+                  +-------------------+                      +-------------------+
-
 +--------------------------------------------------------------------------------------------------+
+</prev>
 
 Impact: 20-30% Yield Boost | Sustainable Agri | For 86% Small Farmers (NABARD 2022)
 Beneficiaries: Farmers | Govt | NGOs | Agri-Startups
@@ -93,7 +94,9 @@ https://www.nabard.org/nabard-annual-report-2022-23.aspx
 
 NABARD Impact Report 2022-23 (PDF):
 https://www.nabard.org/auth/writereaddata/tender/1804243435nabard-impact-report-22-23.pdf
+
 Article on yield increase and ICT-advisory effectiveness (“e-Crop based smart farming in horticultural crops”):
 https://epubs.icar.org.in/index.php/IndHort/article/download/163665/59068/451375
+
 Review study on ICT-based agricultural advisory services and yields (ScienceDirect):
 https://www.sciencedirect.com/science/article/pii/S2095311921638595
