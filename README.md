@@ -83,9 +83,10 @@ Benefits: Promotes social equity, economic growth, and sustainable development i
 +---------------+                  +-------------------+                      +-------------------+
 +--------------------------------------------------------------------------------------------------+
 
-```
 Impact: 20-30% Yield Boost | Sustainable Agri | For 86% Small Farmers (NABARD 2022)
 Beneficiaries: Farmers | Govt | NGOs | Agri-Startups
+```
+![Smart Crop Advisory System](https://github.com/rishsv/SIH-25010/blob/main/Kisan%201.png)
 
 ## Research and References
 NABARD Annual Report 2022-23 (official source):
