@@ -64,6 +64,7 @@ Potential Impact: Empowers farmers with scientific knowledge, resulting in highe
 Benefits: Promotes social equity, economic growth, and sustainable development in rural India.
 
 <prev>
+```
 +----------------------------------- Smart Crop Advisory System ------------------------------------+
 
    [Input Layer]                     [AI Processing]                           [Output Layer]
@@ -83,6 +84,7 @@ Benefits: Promotes social equity, economic growth, and sustainable development i
 | (Pests/Soil)  |                  | Android App       |                      | Feedback Loop     |
 +---------------+                  +-------------------+                      +-------------------+
 +--------------------------------------------------------------------------------------------------+
+```
 </prev>
 
 Impact: 20-30% Yield Boost | Sustainable Agri | For 86% Small Farmers (NABARD 2022)
