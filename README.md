@@ -5,11 +5,11 @@
 ## Problem Title
 SIH 25010: Smart Crop Advisory System for Small and Marginal Farmers
 ## Problem Description
-A majority of small and marginal farmers in India rely on traditional knowledge, local shopkeepers, or guesswork for crop selection, pest control, and fertilizer use. They lack access to personalized, real-time advisory services that account for soil type, weather conditions, and crop history. This often leads to poor yield, excessive input costs, and environmental degradation due to overuse of chemicals. Language barriers, low digital literacy, and absence of localized tools further limit their access to modern agri-tech resources.
+Most small and marginal farmers in India depend on outdated knowledge, local vendors, or guesswork for vital decisions such as crop selection, pest control, and fertilizer application. This results in low yields, inflated input costs, and excessive chemical use, which harms both the environment and farmer livelihoods. Limited access to personalized, data-driven advisory services—alongside language barriers and low digital literacy—prevents them from leveraging modern agriculture technologies for better results.
 
 Impact / Why this problem needs to be solved
 
-Helping small farmers make informed decisions can significantly increase productivity, reduce costs, and improve livelihoods. It also contributes to sustainable farming practices, food security, and environmental conservation. A smart advisory solution can empower farmers with scientific insights in their native language and reduce dependency on unreliable third-party advice.
+Small farmers need scientific, personalized guidance to boost productivity, cut costs, and raise their standard of living. A smart advisory solution not only supports these aims but also encourages sustainable agriculture and food security. If delivered in the local language and adapted for limited digital skills, such a solution can drive significant positive change and lessen farmers’ reliance on unreliable third-party sources.
 
 Expected Outcomes
 
@@ -41,28 +41,59 @@ Government of Punjab
 Agriculture, FoodTech & Rural Development
 
 ## Proposed Solution
-<h3>Remove These Lines</h3>
-<ul><li>Detailed explanation of the proposed solution</li>
-<li>How it addresses the problem</li>
-<li>Innovation and uniqueness of the solution</li></ul>
+This solution combines AI, language technologies, and mobile development to offer personalized crop advice via an app and chatbot. By integrating soil analysis, weather data, crop history, and local market prices, the system provides actionable insights tailored to the user’s needs. The application uses voice input, local languages, and intuitive interfaces to ensure accessibility for low-literate farmers. Image-based pest and disease detection leverages computer vision, while the backend continuously learns from feedback to improve recommendations.
 
 ## Technical Approach
-<h3>Remove These Lines</h3>
-<ul><li>Technologies to be used (e.g. programming languages, frameworks, hardware)
-</li>
-<li>Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b></li></ul>
+Technologies: Python, Android (Kotlin/Java), machine learning frameworks (TensorFlow, PyTorch), natural language processing, cloud platforms (AWS/GCP), and GIS tools for location analysis.
+Hardware: Smartphones, optional external soil sensors, basic camera modules for image input.
+Methodology:
+Collect soil, crop, and location data.
+Analyze data via AI models for personalized recommendations.
+Implement user-friendly mobile interfaces supporting local languages and voice.
+Develop image analysis tools for pest detection.
+Use feedback and analytics for iterative improvement.
+
 
 ## Feasibility and Viability
-<h3>Remove These Lines</h3>
-<ul><li>Analysis of the feasibility of the idea</li>
-<li>Potential challenges and risks</li>
-<li>Strategies for overcoming these challenges</li></ul>
+Feasibility: Widespread smartphone usage and increasing familiarity with mobile apps among rural populations make implementation practical. AI and cloud technologies provide scalable and affordable infrastructure.
+Challenges: Limited internet access in remote areas, ensuring model accuracy with diverse crop data, and overcoming language barriers.
+Risk Mitigation: Offline mode support, continual dataset expansion, and community training workshops can address these issues.
 
 ## Impact and Benefits
-<h3>Remove These Lines</h3>
-<ul><li>Potential impact on the target audience</li>
-<li>Benefits of the solution (social, economic, environmental, etc.)</li></ul>
+Potential Impact: Empowers farmers with scientific knowledge, resulting in higher yields and lower costs. Reduces environmental impact via optimal chemical use.
+Benefits: Promotes social equity, economic growth, and sustainable development in rural India.
+
++----------------------------------- Smart Crop Advisory System ------------------------------------+
+
+   [Input Layer]                     [AI Processing]                           [Output Layer]
+  Farmer + Phone                  AI Engine (Python/ML)                     Personalized Advice
+        |                                  |                                        |
+        v                                  v                                        v
++---------------+                +-------------------+                     +-------------------+
+| Voice Input   |  --> Data -->  | TensorFlow/PyTorch|  --> Insights -->   | Crop Selection    |
+| (Local Lang)  |                | NLP & GIS Tools   |                     | Fertilizer Recs   |
++---------------+                +-------------------+                     | Weather Alerts    |
+      |                                    ^                               | Pest ID (Images)  |
+      |                                    |                               | Market Prices     |
+      |                                    |                               +-------------------+
+      v                                    |                               
++---------------+                  +-------------------+                      +-------------------+   
+| Image Upload  |  <-- Feedback -- | Cloud (AWS/GCP)   | <-- Offline Mode --  | Voice Support     |
+| (Pests/Soil)  |                  | Android App       |                      | Feedback Loop     |
++---------------+                  +-------------------+                      +-------------------+
+
++--------------------------------------------------------------------------------------------------+
+
+Impact: 20-30% Yield Boost | Sustainable Agri | For 86% Small Farmers (NABARD 2022)
+Beneficiaries: Farmers | Govt | NGOs | Agri-Startups
 
 ## Research and References
-<h3>Remove These Lines</h3>
-<ul><li>Details / Links of the reference and research work</li></ul>
+NABARD Annual Report 2022-23 (official source):
+https://www.nabard.org/nabard-annual-report-2022-23.aspx
+
+NABARD Impact Report 2022-23 (PDF):
+https://www.nabard.org/auth/writereaddata/tender/1804243435nabard-impact-report-22-23.pdf
+Article on yield increase and ICT-advisory effectiveness (“e-Crop based smart farming in horticultural crops”):
+https://epubs.icar.org.in/index.php/IndHort/article/download/163665/59068/451375
+Review study on ICT-based agricultural advisory services and yields (ScienceDirect):
+https://www.sciencedirect.com/science/article/pii/S2095311921638595
